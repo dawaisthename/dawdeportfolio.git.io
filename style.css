@@ -491,7 +491,7 @@
     }
     
     @media screen and (max-width:320px) {
-        .title h2 {
+        .service .title h2 {
             font-size: 30px;
         }
         .title h2 {
@@ -507,9 +507,6 @@
             font-size: 30px;
             line-height: normal;
         }
-       .service h2{
-          font-size: 50px
-       }
         .container h1 {
             font-size: 35px;
             letter-spacing: normal;
