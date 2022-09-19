@@ -510,7 +510,11 @@ nav ul li a:hover {
     .title h2 {
         font-size: 50px;
     }
+     .con_text h3 {
+        font-size: 40px;
+    }
 }
+
 
 @media screen and (max-width: 320px) {
     .title h2 {
@@ -543,7 +547,7 @@ nav ul li a:hover {
         padding: 0%;
     }
     .con_text h3 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .con_text h6 {
         font-size: 20px;
