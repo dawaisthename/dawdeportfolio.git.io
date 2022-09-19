@@ -491,7 +491,7 @@
     }
     
     @media screen and (max-width:320px) {
-        #service h2{
+        h2{
             font-size: 30px;
             margin: 0;
            color:red;
