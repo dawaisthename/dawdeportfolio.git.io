@@ -502,8 +502,9 @@
         }
         .container h4,
         .container h3 {
-            font-size: 30px;
+            font-size: 70px;
             line-height: normal;
+           color:red;
         }
         .container h1 {
             font-size: 35px;
