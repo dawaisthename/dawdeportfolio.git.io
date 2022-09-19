@@ -491,11 +491,8 @@
     }
     
     @media screen and (max-width:320px) {
-        .service .title h2 {
+        #service h2{
             font-size: 30px;
-        }
-        .title h2 {
-            font-size: 25px;
             margin: 0;
         }
         .container {
@@ -532,10 +529,10 @@
         .footer {
             height: auto;
         }
-        .about-text h2 {
+        .about text h2 {
             font-size: 45px;
         }
-        .about-text {
+        .about text {
             margin: 0;
             text-align: center;
         }
