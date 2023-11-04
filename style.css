@@ -216,6 +216,40 @@ nav .menu-icon {
     color: #17b647;
 }
 
+.skills {
+    width: 100%;
+    max-width: 600px;
+}
+
+.skill {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    height: 20px;
+    background: #282828;
+    /* border: solid 1px #fff;/ */
+    border-radius: 7px;
+}
+
+.skill-per {
+    height: 100%;
+    background: #30c95e;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 4s 1;
+}
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 
 /* service */
 
