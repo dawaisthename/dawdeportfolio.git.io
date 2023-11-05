@@ -15,17 +15,24 @@
 
 <body>
     <div id="home" class="head">
-        <nav>
-            <h1 class="logo">Dawa<span>Code</span></h1>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about me</a></li>
-                <li><a href="#service">service</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">contact me</a></li>
-            </ul>
-            <!-- <img src="menu.png" alt="" class="menu-icon" onclick="togglemenu()"> -->
-        </nav>
+
+        <div class="header">
+            <a href="" class="logo">
+                <h1>Dawa<span>Code</span></h1>
+            </a>
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            <nav class="navbar">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Service</a>
+                <a href="">projects</a>
+                <a href="">Contact Me</a>
+            </nav>
+        </div>
         <div class="container">
             <h4>Hello, I'M</h4>
             <h1>Dawde Seifu</h1>
@@ -213,32 +220,8 @@
             </div>
         </div>
     </footer>
-    <script>
-        var menulist = document.getElementById("menulist");
-        var each = document.getElementsByClassName('each');
-        var contetnts = document.getElementsByClassName('contetnts');
-        menulist.style.maxHeight = "0px";
 
-        function togglemenu() {
-            if (menulist.style.maxHeight == "0px") {
-                menulist.style.maxHeight = "130px"
-            } else {
-                menulist.style.maxHeight = "0px"
-            }
-        }
 
-        function opentab(tabname) {
-            for (each_one of each) {
-                each_one.classList.remove('active_link')
-
-            }
-            for (content of contents) {
-                content.classList.remove('active-tab')
-            }
-            event.currentTarget.classList.add('active_link')
-            document.getElementById(tabname).classList.add("active-tab")
-        }
-    </script>
 </body>
 
 </html>
